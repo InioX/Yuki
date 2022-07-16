@@ -1,0 +1,17 @@
+{
+  "name": "yuki-discord-bot",
+  "version": "1.0.0",
+  "description": "A multi purpose discord bot, that is customizable in every possible way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.4.4"
+  }
+}
