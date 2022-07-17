@@ -1,8 +1,11 @@
-
 const Discord = require("discord.js")
 
-module.exports.run = async (client, message, args) => {
-    message.channel.send(`The ping is ${sent.createdTimestamp - interaction.createdTimestamp}ms`)
+module.exports.run = async (bot, message, args, color) => {
+   const pingEmbed = new Discord.MessageEmbed()
+         .setColor(color)
+         .setDescription("This is a test :)")
+   
+   message.channel.send({embeds: [pingEmbed]})
 }
 
 module.exports.config = {

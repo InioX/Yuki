@@ -6,4 +6,3 @@ const client = new ClientManager({
 });
 
 client.setup();
-
